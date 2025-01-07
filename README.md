@@ -44,7 +44,7 @@ root/
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nfs-e-projeto.git
+   git clone https://github.com/AlehScm/Nota-Fiscal.git
    ```
 
 2. Abra o arquivo `index.html` em um navegador da web.
