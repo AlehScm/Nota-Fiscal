@@ -9,20 +9,18 @@
         margin-bottom: 10px;
     }
 
-    input{
-        width: 50%;
+    input, textarea{
+        width: 60%;
         padding: 1em;
-    }
-    textarea{
-        width: 50%;
     }
     
     body{
         display: flex;
         flex-direction: column;
+        padding: 5%;
     }
     button{
-        width: 20%;
+        padding: 2em 3em;
     }
 
     .nota-fiscal{
@@ -35,12 +33,16 @@
     }
 
     .teste{
-        width: 50%;
+        width: 60%;
         border: 1px solid;
     }
 }
 
 @media (min-width: 1200px){
+
+    body{
+        padding: 1%;
+    }
 
     #nfsForm{
         display: flex;
@@ -52,11 +54,8 @@
         margin-bottom: 10px;
     }
 
-    input{
-        width: 50%;
-    }
-    textarea{
-        width: 51.2%;
+    input, textarea{
+        width: 25%;
     }
     
     body{
@@ -64,8 +63,7 @@
         flex-direction: column;
     }
     button{
-        width: 40%;
-        font-size: medium;
+        width: 10%;
     }
 
     .nota-fiscal{
@@ -78,7 +76,7 @@
     }
 
     .teste{
-        width: 52.1%;
+        width: 30%;
         border: 1px solid;
     }
 }
