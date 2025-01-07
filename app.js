@@ -1,9 +1,8 @@
-
 function gerarNotaFiscal() {
     const form = document.getElementById('nfsForm');
     const inputs = form.querySelectorAll('input, textarea');
 
-    
+    // função para alerta caso o usuario não prencha o campo
     for (let input of inputs) {
         if (input.value.trim() == "") {
             alert(`Por favor, preencha o campo: ${input.previousElementSibling.textContent}`);
@@ -45,3 +44,6 @@ function gerarNotaFiscal() {
     document.getElementById('notaFiscal').style.display = 'flex';
 }
 
+function teste(variavel){
+    const campo = parseFloat(document.getElementById(variavel).value) / 100;
+}
