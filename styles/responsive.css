@@ -1,0 +1,84 @@
+@media (min-width: 768px) {
+    #nfsForm{
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+
+    label{
+        margin-bottom: 10px;
+    }
+
+    input{
+        width: 50%;
+        padding: 1em;
+    }
+    textarea{
+        width: 50%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        width: 20%;
+    }
+
+    .nota-fiscal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: none !important;
+        width: 100%;
+    }
+
+    .teste{
+        width: 50%;
+        border: 1px solid;
+    }
+}
+
+@media (min-width: 1200px){
+
+    #nfsForm{
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+
+    label{
+        margin-bottom: 10px;
+    }
+
+    input{
+        width: 50%;
+    }
+    textarea{
+        width: 51.2%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        width: 40%;
+        font-size: medium;
+    }
+
+    .nota-fiscal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: none !important;
+        width: 100%;
+    }
+
+    .teste{
+        width: 52.1%;
+        border: 1px solid;
+    }
+}
