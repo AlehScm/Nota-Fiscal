@@ -43,7 +43,3 @@ function gerarNotaFiscal() {
     // Exibir a nota fiscal
     document.getElementById('notaFiscal').style.display = 'flex';
 }
-
-function teste(variavel){
-    const campo = parseFloat(document.getElementById(variavel).value) / 100;
-}
