@@ -61,10 +61,12 @@ root/
 ## Exemplo de Saída
 
 A Nota Fiscal gerada exibirá:
-- Lista de itens vendidos e valor de cada item.
-- Valor total da venda.
-- Valores calculados de cada imposto.
-- Valor líquido após os descontos dos impostos.
+- Valor da venda
+- Itens vendidos
+- Valor do imposto sobre o valor da venda
+- Valor total dos impostos
+- Valor total da venda com os impostos
+
 
 ## Licença
 
